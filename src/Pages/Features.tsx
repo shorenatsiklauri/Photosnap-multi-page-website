@@ -1,15 +1,9 @@
-import styled from "styled-components";
-import Createandsharepicture from "../assets/home/desktop/create-and-share.jpg";
-import TabletCreateandsharepicture from "../assets/home/tablet/create-and-share.jpg";
-import MobileCreateandsharepicture from "../assets/home/mobile/create-and-share.jpg";
-import Beutifulstory from "../assets/home/desktop/beautiful-stories.jpg";
-import TabBeutifulstory from "../assets/home/tablet/beautiful-stories.jpg";
-import MObileBeutifulstory from "../assets/home/mobile/beautiful-stories.jpg";
-import Designedpicture from "../assets/home/desktop/designed-for-everyone.jpg";
-import MobileDesignedpicture from "../assets/home/mobile/designed-for-everyone.jpg";
-import TabDesignedpicture from "../assets/home/tablet/designed-for-everyone.jpg";
-import Mauntain from "../assets/stories/desktop/mountains.jpg";
+import React from 'react';
+import styled from 'styled-components';
+import Storymoon from "../assets/stories/desktop/moon-of-appalacia.jpg";
+import Mobilestorymoon from "../assets/stories/mobile/moon-of-appalacia.jpg";
 import MobileMauntain from "../assets/stories/mobile/mountains.jpg";
+import Mauntain from "../assets/stories/desktop/mountains.jpg";
 import CitySun from "../assets/stories/desktop/cityscapes.jpg";
 import MobileCitySun from "../assets/stories/mobile/cityscapes.jpg";
 import Voiager from "../assets/stories/desktop/18-days-voyage.jpg";
@@ -17,20 +11,28 @@ import MobileVoiager from "../assets/stories/mobile/18-days-voyage.jpg";
 import architecturals from "../assets/stories/desktop/architecturals.jpg";
 import Mobilearchitecturals from "../assets/stories/mobile/architecturals.jpg";
 
-const Homepage = () => {
+
+const Story: React.FC = () => {
   return (
     <Maindiv>
       <Divforpictureandtext>
-        <MobilePicturestyle src={MobileCreateandsharepicture} alt="My Image" />{" "}
+        <MobilePicturestyle src={Mobilestorymoon} alt="My Image" />{" "}
+        <MobilePicturestyle src={Storymoon} alt="My Image" />{" "}
+            </Divforpictureandtext>
+
+
+
+      <Divforpictureandtext>
+     
         <Divfortext>
+        <Contentelement>   LAST MONTH’S FEATURED STORY  </Contentelement>
           <Paragrapaboutsharestory>
-            Create and share your photo stories.{" "}
+          HAZY FULL MOON OF APPALACHIA{" "}
           </Paragrapaboutsharestory>
+          <Contentelement>  March 2nd 2020 by John Appleseed </Contentelement>
           <Contentelement>
             {" "}
-            Photosnap is a platform for photographers and visual storytellers.
-            We make it easy to share photos, tell stories and connect with
-            others.
+            The dissected plateau area, while not actually made up of geological mountains, is popularly called "mountains," especially in eastern Kentucky and West Virginia, and while the ridges are not high, the terrain is extremely rugged.
           </Contentelement>
           <GetAnIntiveelement>
             <TextGetANINTIVE> GET AN INVITE</TextGetANINTIVE>
@@ -42,65 +44,7 @@ const Homepage = () => {
           </GetAnIntiveelement>
         </Divfortext>
         <Divforpicture>
-          <Picturestyle src={Createandsharepicture} alt="My Image" />{" "}
-          <TabPicturestyle src={TabletCreateandsharepicture} alt="My Image" />{" "}
-
-                  </Divforpicture>{" "}
-      </Divforpictureandtext>
-
-      <Divforpictureandtext>
-        <Divforpicture>
-          <Picturestyle src={Beutifulstory} alt="One" />{" "}
-          <TabPicturestyle src={TabBeutifulstory} alt="One" />{" "}
-         
-        </Divforpicture>
-        <MobilePicturestyle src={MObileBeutifulstory} alt="My Image" />{" "}
-        <Divfortext>
-          <Paragrapaboutsharestory>
-            BEAUTIFUL STORIES EVERY TIME{" "}
-          </Paragrapaboutsharestory>
-          <Contentelement>
-            {" "}
-            We provide design templates to ensure your stories look terrific.
-            Easily add photos, text, embed maps and media from other networks.
-            Then share your story with everyone.
-          </Contentelement>
-          <GetAnIntiveelement>
-            <TextGetANINTIVE> VIEW THE STORIES</TextGetANINTIVE>
-            <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
-              <g fill="none" fill-rule="evenodd" stroke="white">
-                <path d="M0 7h41.864M35.428 1l6 6-6 6" />
-              </g>
-            </svg>
-          </GetAnIntiveelement>
-        </Divfortext>
-      </Divforpictureandtext>
-
-      <Divforpictureandtext>
-        <MobilePicturestyle src={MobileDesignedpicture} alt="My Image" />{" "}
-        <Divfortext>
-          <Paragrapaboutsharestory>
-            DESIGNED FOR EVERYONE.{" "}
-          </Paragrapaboutsharestory>
-          <Contentelement>
-            {" "}
-            Photosnap can help you create stories that resonate with your
-            audience. Our tool is designed for photographers of all levels,
-            brands, businesses you name it.
-          </Contentelement>
-          <GetAnIntiveelement>
-            <TextGetANINTIVE> GET AN INVITE</TextGetANINTIVE>
-            <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
-              <g fill="none" fill-rule="evenodd" stroke="white">
-                <path d="M0 7h41.864M35.428 1l6 6-6 6" />
-              </g>
-            </svg>
-          </GetAnIntiveelement>
-        </Divfortext>
-        <Divforpicture>
-          <Picturestyle src={Designedpicture} alt="My Image" />{" "}
-          <TabPicturestyle src={TabDesignedpicture} alt="My Image" />{" "}
-       
+          {/* <Picturestyle src={Designedpicture} alt="My Image" />{" "} */}
         </Divforpicture>{" "}
       </Divforpictureandtext>
       <Divforsmallpictures>
@@ -200,7 +144,7 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default Story;
 
 const Maindiv = styled.div`
   width: 100%;
@@ -212,40 +156,52 @@ const Maindiv = styled.div`
   }
 `;
 const Divforpictureandtext = styled.div`
-  width: 100%;
+background-color:red;
+  /* width: 100%;
   display: flex;
   flex-direction: row;
   margin: 0px;
   padding: 0px;
-
-  @media (max-width: 767px) {
+  background: url(${Storymoon});
+  background-color:red;
+  @media (min-width: 767px) {
     display: flex;
     flex-direction: column;
     width: 100%;
+    background: url(${Storymoon});
+    background-color:red;
+
+    @media (min-width: 768px) {
+  width: 100%;
+  background-color:red;
   }
+  @media (min-width: 992px) {
+    background-color:red; */
+
+  /* }
+
+  } */
 `;
 
 const Divfortext = styled.div`
-  background: black;
-
-
+  /* background: black;
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: start;
   width: 40%;
   @media (max-width: 767px) {
-    width: 100%;
+    width: 100%; */
    
-  }
+  /* } */
 `;
 
 const Divforpicture = styled.div`
-  width: 70%;
+  /* width: 70%;
 
   @media (max-width: 767px) {
     width: 100%;
-  }
+  } */
 `;
 
 const Paragrapaboutsharestory = styled.p`
@@ -298,41 +254,32 @@ const TextGetANINTIVE = styled.h1`
 `;
 
 const Divforsmallpictures = styled.div`
+  display: flex;
+  flex-direction: row;
+  @media (max-width: 767px) {
     display: flex;
     flex-direction: column;
-    width:100%;
-    flex-wrap:wrap;
-    @media (min-width: 767px) {
-    display: flex;
-  flex-direction: row;
-    }
-
-  @media (min-width: 992px) {
   }
 `;
 const SmalldiveOne = styled.div`
-  padding-top:400px;
-  background: url(${MobileMauntain});
+  height: 400px;
+  padding-top: 100px;
+  background: url(${Mauntain});
   background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
+  width: 25%;
   display: flex;
   justify-content: start;
   flex-direction: column;
   align-items: start;
-  
-  @media (min-width: 768px) {
-    background: url(${Mauntain});
+
+  @media (max-width: 767px) {
+    background: url(${MobileMauntain});
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center center;
     height: 400px;
-    width: 50%;
-   
-  }
-
-  @media (min-width: 992px) {
-    width: 25%;
+    width: 100%;
+    padding-top: 300px;
   }
 `;
 const ParagrMauntains = styled.p`
@@ -359,47 +306,74 @@ const Readstorydiv = styled.div`
   height:100px;
 `;
 
+const Smalldivesecond = styled.div`
+  height: 400px;
+  padding-top: 100px;
+  background: url(${CitySun});
+  background-size: cover;
+  width: 25%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: start;
 
-const Smalldivesecond = styled(SmalldiveOne)`
+  @media (max-width: 767px) {
     background: url(${MobileCitySun});
-    background-repeat:none;
-    background-size:cover;
-    @media (max-width: 767px) {
-    background: url(${CitySun});
-    background-repeat:none;
-    background-size:cover;
- 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 400px;
+    width: 100%;
+    padding-top: 300px;
   }
 `;
 
-const Smalldivethree = styled(SmalldiveOne)`
+const Smalldivethree = styled.div`
+  height: 400px;
+  padding-top: 100px;
   background: url(${Voiager});
-  background-repeat:none;
-    background-size:cover;
+  background-size: cover;
+  width: 25%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: start;
 
   @media (max-width: 767px) {
-    background: url(${Voiager});
-    background-repeat:none;
-    background-size:cover;
-
+    background: url(${MobileVoiager});
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 400px;
+    width: 100%;
+    padding-top: 300px;
   }
 `;
-const Smalldivefour = styled(SmalldiveOne)`
-    background: url(${Mobilearchitecturals});
-    background-repeat:none;
-    background-size:cover;
+const Smalldivefour = styled.div`
+  height: 400px;
+  padding-top: 100px;
+  background: url(${architecturals});
+  background-size: cover;
+  width: 25%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: start;
 
   @media (max-width: 767px) {
-     background: url(${architecturals});
-     background-repeat:none;
-    background-size:cover;
-
+    background: url(${Mobilearchitecturals});
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 400px;
+    width: 100%;
+    padding-top: 300px;
   }
 `;
 
 const MobilePicturestyle = styled.img`
-  display: block;
- 
+  /* display: block;
+  
   @media (min-width: 768px) {
     display: none;
   }
@@ -407,17 +381,14 @@ const MobilePicturestyle = styled.img`
   @media (max-width: 767px) {
     display: block;
     width: 100%;
-    height: 100%;
-  }
+    height: 100%; */
+  /* } */
 `;
 
 const TabPicturestyle = styled.img`
-   display: none;
-@media (min-width: 768px) {
-    display: block;
-    width:100%;
-  }
-
+  display: block;
+  width:100%;
+  height:100%;
   
   @media (min-width: 992px) {
     display: none;

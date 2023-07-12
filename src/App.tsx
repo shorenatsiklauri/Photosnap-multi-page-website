@@ -63,6 +63,13 @@ function App() {
                 <path fill="url(#a)" d="M0 16L9.5 0 19 16z" />
               </g>
             </svg>
+
+            <FooterDivforList>
+            <FooterButtons> Home</FooterButtons>
+            <FooterButtons> STORIES</FooterButtons>
+            <FooterButtons> Features</FooterButtons>
+            <FooterButtons> Pricing</FooterButtons>
+          </FooterDivforList>
             <DivforLogos>
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20">
                 <defs>
@@ -136,13 +143,9 @@ function App() {
                 />
               </svg>
             </DivforLogos>
+    
           </FooterDivOne>
-          <FooterDivforList>
-            <FooterButtons> Home</FooterButtons>
-            <FooterButtons> STORIES</FooterButtons>
-            <FooterButtons> Features</FooterButtons>
-            <FooterButtons> Pricing</FooterButtons>
-          </FooterDivforList>
+         
           <FooterDivThree>
             <DivforGetantinvite>
               <GETANINVITE> GET AN INVITE</GETANINVITE>
@@ -208,21 +211,40 @@ const BlackHeaderButton = styled.button`
   }
 `;
 const FooterContainer = styled.div`
+width: 100%;
+  height: 500px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction:column;
+  margin:auto;
+ padding-top:70px;
+ gap: 10px;
+@media (min-width: 768px) {
+  
+  }
+  @media (min-width: 992px) {
+    
   width: 100%;
   height: 250px;
   background: black;
   display: flex;
   justify-content: center;
+  justify-content:center;
   flex-direction: row;
   gap: 50px;
-`;
+
+  }
+  `;
+
 const FooterDivOne = styled.div`
-  display: flex;
-  justify-content: start;
+ width:300px;
+ display:flex;
+ flex-direction:column;
+ justify-content: center;
   align-items: center;
-  margin: auto;
-  gap: 50px;
-  flex-direction: column;
+  position:relative;
 `;
 const DivforLogos = styled.div`
   display: flex;
@@ -230,14 +252,32 @@ const DivforLogos = styled.div`
   align-items: center;
   flex-direction: row;
   gap: 20px;
+  padding-top:50px;
+  padding-bottom:20px;
+
 `;
 const FooterDivforList = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex-direction: center;
+  align-items:center;
+  padding:30px;
+  margin:auto;
   gap: 20px;
-  width: 250px;
+  width: 150px;
+  @media (min-width: 768px) {
+
+  position:absolute;
+  margin-left:700px;
+  margin-right:50px;
+}
+@media (min-width: 992px) {
+
+
+}
+
+
+
 `;
 const FooterButtons = styled.button`
   display: flex;
