@@ -4,6 +4,8 @@ import styled from "styled-components";
 import { Routes, Route } from "react-router-dom";
 import Homepage from "./Pages/Home";
 import Story from "./Pages/Story";
+import Features from "./Pages/Features";
+import Pricing from "./Pages/Pricing";
 
 function App() {
   return (
@@ -36,6 +38,8 @@ function App() {
          <Routes>
           <Route path="/home" element={<Homepage />} />
           <Route path="/story" element={<Story />} />
+          <Route path="/Features" element={<Features />} />
+          <Route path="/pricing" element={<Pricing />} />
         </Routes> 
 
         <FooterContainer>

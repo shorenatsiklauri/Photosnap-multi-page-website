@@ -1,0 +1,15 @@
+[
+    {
+ 
+      "name": "Saturn",
+      "color": "#CD5120",
+      "content": "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth. It only has one-eighth the average density of Earth.",
+    
+   
+      "images": {
+        "mobile": "/planet-saturn.svg",
+        "tab": "/planet-saturn-internal.svg",
+        "desctop": "/geology-saturn.png"
+   
+    }
+  ]

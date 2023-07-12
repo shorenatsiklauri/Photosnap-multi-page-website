@@ -270,7 +270,7 @@ const Contentelement = styled.h1`
   font-family: DM Sans;
   line-height: 25px;
   opacity: 0.6000000238418579;
-  width: 500px;
+  width: 400px;
   margin-left: 50px;
 `;
 

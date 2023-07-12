@@ -1,39 +1,26 @@
 import styled from "styled-components";
-import MobileHero from "../assets/features/mobile/hero.jpg";
-import TabHero from "../assets/features/tablet/hero.jpg";
-import Hero from "../assets/features/desktop/hero.jpg";
-import MobileBGbeta from "../assets/shared/mobile/bg-beta.jpg";
-import BGbeta from "../assets/shared/desktop/bg-beta.jpg";
+import MobileHero from "../assets/pricing/mobile/hero.jpg";
+import Hero from "../assets/pricing/desktop/hero.jpg";
 
 
 
-const Features = () => {
+const Pricing = () => {
   return (
     <Maindiv>
        <Divforpictureandtext>
         <MobilePicturestyle src={MobileHero} alt="My Image" />{" "}
         <Divfortext>
           <Paragrapaboutsharestory>
-            Create and share your photo stories.{" "}
+          PRICING.{" "}
           </Paragrapaboutsharestory>
           <Contentelement>
             {" "}
-            Photosnap is a platform for photographers and visual storytellers.
-            We make it easy to share photos, tell stories and connect with
-            others.
+            Create a your stories, Photosnap is a platform for photographers and visual storytellers. It’s the simple way to create and share your photos.
           </Contentelement>
-          <GetAnIntiveelement>
-            <TextGetANINTIVE> GET AN INVITE</TextGetANINTIVE>
-            <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
-              <g fill="none" fill-rule="evenodd" stroke="white">
-                <path d="M0 7h41.864M35.428 1l6 6-6 6" />
-              </g>
-            </svg>
-          </GetAnIntiveelement>
-        </Divfortext>
+                 </Divfortext>
         <Divforpicture>
           <Picturestyle src={Hero} alt="My Image" />{" "}
-          <TabPicturestyle src={TabHero} alt="My Image" />{" "}
+          <TabPicturestyle src={MobileHero} alt="My Image" />{" "}
 
                   </Divforpicture>{" "}
       </Divforpictureandtext>
@@ -102,25 +89,99 @@ const Features = () => {
         </Whitesmalldivs> 
 
       </Whitedivforinformation>
-      <Betadiv>
-      <Textweareinbeta> We’re in beta.
-Get your invite today!</Textweareinbeta>
-<GetAnIntiveelement>
-            <TextGetANINTIVE> GET AN INVITE</TextGetANINTIVE>
-            <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
-              <g fill="none" fill-rule="evenodd" stroke="white">
-                <path d="M0 7h41.864M35.428 1l6 6-6 6" />
-              </g>
-            </svg>
-          </GetAnIntiveelement>
-
-        </Betadiv>
+  
+        <ToggleSwitch>
+        <p>Monthly</p>
+  <ToggleLabel>
+    <ToggleCheckbox type="checkbox" />
+    <Slider> <Ball></Ball></Slider>
+  </ToggleLabel>
+  <p>Yearly</p>
+</ToggleSwitch>
+<Basicdiv>
+    <h1>Basic</h1>
+    <p>Includes basic usage of our platform. Recommended for new and aspiring photographers.</p>
+    <h1> $19.00</h1>
+    <p>  per month</p>
+    <BlackButton>PICK PLAN</BlackButton>
+</Basicdiv>
     </Maindiv>
   );
 };
 
-export default Features;
+export default Pricing;
 
+const Ball = styled.span`
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  transition: 0.4s;
+  transform: ${props => props.clicked ? 'translateX(30px)' : 'none'};
+`;
+
+const ToggleSwitch = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin:auto;
+  background-color:green;
+  margin-top:20px;
+`;
+
+const ToggleLabel = styled.label`
+  position: relative;
+  display: inline-block;
+  width: 64px;
+height: 25px;
+  margin-right: 10px;
+  background-color:blue;
+`;
+
+const ToggleCheckbox = styled.input`
+  display: none;
+  color:gray;
+`;
+
+const Slider = styled.span`
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:red;
+  border-radius: 34px;
+  transition: 0.4s;
+`;
+
+const Basicdiv =styled.div`
+display:flex;
+justify-content:center;
+align-items:center;
+margin:auto;
+flex-direction:column;
+gap:10px;
+margin-top:20px;
+margin-bottom:20px;
+width: 318px;
+height: 407px;
+background: #F5F5F5;
+`;
+
+const BlackButton = styled.button`
+  width: 158px;
+  height: 40px;
+  flex-shrink: 0;
+  background: #000;
+  color: white;
+  &:hover {
+    background: #dfdfdf;
+    color: black;
+  }
+`;
 
 const Maindiv = styled.div`
   width: 100%;
@@ -156,6 +217,7 @@ const Divfortext = styled.div`
   @media (max-width: 767px) {
     width: 100%;
    
+   
   }
 `;
 
@@ -185,11 +247,11 @@ const Paragrapaboutsharestory = styled.p`
 
 const Contentelement = styled.h1`
   color: #fff;
-  font-size: 15px;
+  font-size: 14px;
   font-family: DM Sans;
-  line-height: 25px;
-  opacity: 0.6000000238418579;
-  width: 400px;
+  line-height: 20px;
+  opacity: 0.4000000238418579;
+  width: 350px;
   margin-left: 50px;
 `;
 
@@ -285,37 +347,6 @@ const Whitesmalldivs = styled.div`
  padding-top: 50px;
 `;
 
-const Betadiv =styled.div`
-height:400px;
-display:flex;
-justify-content:center;
-align-items:center;
-flex-direction:column;
-background: url(${MobileBGbeta});
-background-repeat:none;
-background-size:cover;
-
-@media (min-width: 992px) {
-  display:flex;
-justify-content:center;
-align-items:center;
-flex-direction:row;
-}
-
-@media (min-width: 992px) {
-  background: url(${BGbeta});
-background-repeat:none;
-background-size:cover;
-display:flex;
-justify-content:center;
-align-items:center;
-flex-direction:row;
-column-gap:300px;
-
-
-}
-
-`;
 
 const Textweareinbeta =styled.h1`
   width:400px;
