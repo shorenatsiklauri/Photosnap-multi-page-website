@@ -11,7 +11,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](preview.jpg)
+![](./preview.jpg)
 
 ### Links
 
@@ -26,22 +26,16 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- TypeScript
 - [React](https://reactjs.org/) - JS library
 - [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```TypeScript 🎉
-
-```
+````TypeScript 🎉
 
 ```React 🎉
-.proud-of-this-css {
-  color: papayawhip;
-}
 
-```
+```Styled Components 🎉🎉
+
+````

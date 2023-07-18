@@ -18,12 +18,9 @@ import MobileKinglion from "../assets/stories/mobile/king-on-africa.jpg";
 import Mobiletriptonowhere from "../assets/stories/mobile/trip-to-nowhere.jpg";
 import Triptonowhere from "../assets/stories/mobile/trip-to-nowhere.jpg";
 import Tabtriptonowhere from "../assets/stories/mobile/trip-to-nowhere.jpg";
-
-
 import Mobileunforeseen from "../assets/stories/mobile/unforeseen-corners.jpg";
 import Unforeseen from "../assets/stories/mobile/unforeseen-corners.jpg";
 import Tabunforeseen from "../assets/stories/mobile/unforeseen-corners.jpg";
-
 import MobileRange from "../assets/stories/mobile/rage-of-the-sea.jpg";
 import Range from "../assets/stories/desktop/rage-of-the-sea.jpg";
 import TabRange from "../assets/stories/mobile//rage-of-the-sea.jpg";
@@ -99,8 +96,8 @@ const Story: React.FC = () => {
         </SmalldiveOne>
 
         <Smalldivesecond>
-          <ParagrMauntains>The Mountains</ParagrMauntains>
-          <ParagraphbyWho>by John Appleseed</ParagraphbyWho>
+          <ParagrMauntains>Sunset Cityscapes</ParagrMauntains>
+          <ParagraphbyWho>by Benjamin Cruz</ParagraphbyWho>
           <Readstorydiv>
             <TextGetANINTIVE> READ STORY</TextGetANINTIVE>
             <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
@@ -112,8 +109,8 @@ const Story: React.FC = () => {
         </Smalldivesecond>
 
         <Smalldivethree>
-          <ParagrMauntains>The Mountains</ParagrMauntains>
-          <ParagraphbyWho>by John Appleseed</ParagraphbyWho>
+          <ParagrMauntains>18 Days Voyage</ParagrMauntains>
+          <ParagraphbyWho>by Alexei Borodin</ParagraphbyWho>
           <Readstorydiv>
             <TextGetANINTIVE> READ STORY</TextGetANINTIVE>
             <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
@@ -125,8 +122,8 @@ const Story: React.FC = () => {
         </Smalldivethree>
 
         <Smalldivefour>
-          <ParagrMauntains>The Mountains</ParagrMauntains>
-          <ParagraphbyWho>by John Appleseed</ParagraphbyWho>
+          <ParagrMauntains>Architecturals</ParagrMauntains>
+          <ParagraphbyWho>by Samantha Brooke</ParagraphbyWho>
           <Readstorydiv>
             <TextGetANINTIVE> READ STORY</TextGetANINTIVE>
             <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
@@ -138,8 +135,8 @@ const Story: React.FC = () => {
         </Smalldivefour>
 
         <Smalldivefive>
-               <ParagrMauntains>The Mountains</ParagrMauntains>
-          <ParagraphbyWho>by John Appleseed</ParagraphbyWho>
+               <ParagrMauntains>World Tour 2019</ParagrMauntains>
+          <ParagraphbyWho>by Timothy Wagner</ParagraphbyWho>
           <Readstorydiv>
             <TextGetANINTIVE> READ STORY</TextGetANINTIVE>
             <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
@@ -151,8 +148,8 @@ const Story: React.FC = () => {
         </Smalldivefive>
 
         <Smalldivesix>
-               <ParagrMauntains>The Mountains</ParagrMauntains>
-          <ParagraphbyWho>by John Appleseed</ParagraphbyWho>
+               <ParagrMauntains>Unforeseen Corners</ParagrMauntains>
+          <ParagraphbyWho>by William Malcolm</ParagraphbyWho>
           <Readstorydiv>
             <TextGetANINTIVE> READ STORY</TextGetANINTIVE>
             <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
@@ -163,8 +160,8 @@ const Story: React.FC = () => {
           </Readstorydiv>
         </Smalldivesix>
         <Smalldiveseven>
-               <ParagrMauntains>The Mountains</ParagrMauntains>
-          <ParagraphbyWho>by John Appleseed</ParagraphbyWho>
+               <ParagrMauntains>King on Africa: Part II</ParagrMauntains>
+          <ParagraphbyWho>by Tim Hillenburg</ParagraphbyWho>
           <Readstorydiv>
             <TextGetANINTIVE> READ STORY</TextGetANINTIVE>
             <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
@@ -176,8 +173,8 @@ const Story: React.FC = () => {
         </Smalldiveseven>
 
         <Smalldiveeight>
-               <ParagrMauntains>The Mountains</ParagrMauntains>
-          <ParagraphbyWho>by John Appleseed</ParagraphbyWho>
+               <ParagrMauntains>The Trip to Nowhere</ParagrMauntains>
+          <ParagraphbyWho>by Felicia Rourke</ParagraphbyWho>
           <Readstorydiv>
             <TextGetANINTIVE> READ STORY</TextGetANINTIVE>
             <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
@@ -190,8 +187,8 @@ const Story: React.FC = () => {
 
 
         <Smalldivenine>
-               <ParagrMauntains>The Mountains</ParagrMauntains>
-          <ParagraphbyWho>by John Appleseed</ParagraphbyWho>
+               <ParagrMauntains>Rage of The Sea</ParagrMauntains>
+          <ParagraphbyWho>by Mohammed Abdul</ParagraphbyWho>
           <Readstorydiv>
             <TextGetANINTIVE> READ STORY</TextGetANINTIVE>
             <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
@@ -203,8 +200,8 @@ const Story: React.FC = () => {
         </Smalldivenine>
 
         <SmalldiveTen>
-               <ParagrMauntains>The Mountains</ParagrMauntains>
-          <ParagraphbyWho>by John Appleseed</ParagraphbyWho>
+               <ParagrMauntains>Running Free</ParagrMauntains>
+          <ParagraphbyWho>by Michelle</ParagraphbyWho>
           <Readstorydiv>
             <TextGetANINTIVE> READ STORY</TextGetANINTIVE>
             <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
@@ -216,8 +213,8 @@ const Story: React.FC = () => {
         </SmalldiveTen>
 
         <Smalldiveeleven>
-               <ParagrMauntains>The Mountains</ParagrMauntains>
-          <ParagraphbyWho>by John Appleseed</ParagraphbyWho>
+               <ParagrMauntains>Behind the Waves</ParagrMauntains>
+          <ParagraphbyWho>by Lamarr Wilson</ParagraphbyWho>
           <Readstorydiv>
             <TextGetANINTIVE> READ STORY</TextGetANINTIVE>
             <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
@@ -229,8 +226,8 @@ const Story: React.FC = () => {
         </Smalldiveeleven>
 
         <Smalldivetwelve>
-               <ParagrMauntains>The Mountains</ParagrMauntains>
-          <ParagraphbyWho>by John Appleseed</ParagraphbyWho>
+               <ParagrMauntains>Calm Waters</ParagrMauntains>
+          <ParagraphbyWho>by Samantha Brooke</ParagraphbyWho>
           <Readstorydiv>
             <TextGetANINTIVE> READ STORY</TextGetANINTIVE>
             <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
@@ -243,8 +240,8 @@ const Story: React.FC = () => {
 
 
         <Smalldivemilkyway>
-               <ParagrMauntains>The Mountains</ParagrMauntains>
-          <ParagraphbyWho>by John Appleseed</ParagraphbyWho>
+               <ParagrMauntains>The Milky Way</ParagrMauntains>
+          <ParagraphbyWho>by Benjamin Cruz</ParagraphbyWho>
           <Readstorydiv>
             <TextGetANINTIVE> READ STORY</TextGetANINTIVE>
             <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
@@ -257,8 +254,8 @@ const Story: React.FC = () => {
 
 
         <Smalldivenight>
-               <ParagrMauntains>The Mountains</ParagrMauntains>
-          <ParagraphbyWho>by John Appleseed</ParagraphbyWho>
+               <ParagrMauntains>Night at The Dark Forest</ParagrMauntains>
+          <ParagraphbyWho>by  Mohammed Abdul</ParagraphbyWho>
           <Readstorydiv>
             <TextGetANINTIVE> READ STORY</TextGetANINTIVE>
             <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
@@ -270,8 +267,8 @@ const Story: React.FC = () => {
         </Smalldivenight>
 
         <Smalldivesomewarp>
-               <ParagrMauntains>The Mountains</ParagrMauntains>
-          <ParagraphbyWho>by John Appleseed</ParagraphbyWho>
+               <ParagrMauntains>Somwarpet’s Beauty</ParagrMauntains>
+          <ParagraphbyWho>by Michelle</ParagraphbyWho>
           <Readstorydiv>
             <TextGetANINTIVE> READ STORY</TextGetANINTIVE>
             <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
@@ -283,8 +280,8 @@ const Story: React.FC = () => {
         </Smalldivesomewarp>
 
         <Smalldiveland>
-               <ParagrMauntains>The Mountains</ParagrMauntains>
-          <ParagraphbyWho>by John Appleseed</ParagraphbyWho>
+               <ParagrMauntains>Land of Dreams</ParagrMauntains>
+          <ParagraphbyWho>by William Malcolm</ParagraphbyWho>
           <Readstorydiv>
             <TextGetANINTIVE> READ STORY</TextGetANINTIVE>
             <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">

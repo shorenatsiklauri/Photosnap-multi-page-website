@@ -276,7 +276,7 @@ margin-bottom:50px;
 }
 `;
 const Whitesmalldivs = styled.div`
-  width: 300px;
+  width: 250px;
  display: flex;
   flex-direction: column;
   justify-content: center;

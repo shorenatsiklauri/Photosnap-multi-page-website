@@ -118,8 +118,8 @@ const Homepage = () => {
         </SmalldiveOne>
 
         <Smalldivesecond>
-          <ParagrMauntains>The Mountains</ParagrMauntains>
-          <ParagraphbyWho>by John Appleseed</ParagraphbyWho>
+          <ParagrMauntains>Sunset Cityscapes</ParagrMauntains>
+          <ParagraphbyWho>by Benjamin Cruz</ParagraphbyWho>
           <Readstorydiv>
             <TextGetANINTIVE> READ STORY</TextGetANINTIVE>
             <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
@@ -131,8 +131,8 @@ const Homepage = () => {
         </Smalldivesecond>
 
         <Smalldivethree>
-          <ParagrMauntains>The Mountains</ParagrMauntains>
-          <ParagraphbyWho>by John Appleseed</ParagraphbyWho>
+          <ParagrMauntains>18 Days Voyage</ParagrMauntains>
+          <ParagraphbyWho>by Alexei Borodin</ParagraphbyWho>
           <Readstorydiv>
             <TextGetANINTIVE> READ STORY</TextGetANINTIVE>
             <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
@@ -144,8 +144,8 @@ const Homepage = () => {
         </Smalldivethree>
 
         <Smalldivefour>
-          <ParagrMauntains>The Mountains</ParagrMauntains>
-          <ParagraphbyWho>by John Appleseed</ParagraphbyWho>
+          <ParagrMauntains>Architecturals</ParagrMauntains>
+          <ParagraphbyWho>by Samantha Brooke</ParagraphbyWho>
           <Readstorydiv>
             <TextGetANINTIVE> READ STORY</TextGetANINTIVE>
             <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
