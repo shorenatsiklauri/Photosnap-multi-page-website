@@ -32,10 +32,10 @@ Users should be able to:
 
 ### What I learned
 
-````TypeScript 🎉
+`````React 🎉
 
-```React 🎉
+````TypeScript 🎉
 
 ```Styled Components 🎉🎉
 
-````
+`````
