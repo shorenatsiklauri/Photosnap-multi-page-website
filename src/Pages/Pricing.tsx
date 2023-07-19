@@ -5,7 +5,7 @@ import Herotab from "../assets/pricing/tablet/hero.jpg";
 
 import React, { useState } from "react";
 
-const Pricing:React.FC = () => {
+const Pricing = () => {
   const [isChecked, setIsChecked] = useState(false);
   const [isPickedone, setIsPickedone] = useState(false);
   const [isPickedtwo, setIsPickedtwo] = useState(false);

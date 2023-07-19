@@ -12,11 +12,6 @@ dist
 dist-ssr
 *.local
 
-tsconfig.node.json*
-tsconfig.json*
-package.json*
-package-lock.json*
-.eslintrc.cjs
 
 
 # Editor directories and files
