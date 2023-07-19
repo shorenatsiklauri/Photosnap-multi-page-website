@@ -4,7 +4,6 @@ import Mobilestorymoon from "../assets/stories/mobile/moon-of-appalacia.jpg";
 import Storymoon from "../assets/stories/desktop/moon-of-appalacia.jpg";
 import TabStorymoon from "../assets/stories/tablet/moon-of-appalacia.jpg";
 import MobileMauntain from "../assets/stories/mobile/mountains.jpg";
-import Mauntain from "../assets/stories/desktop/mountains.jpg";
 import CitySun from "../assets/stories/desktop/cityscapes.jpg";
 import MobileCitySun from "../assets/stories/mobile/cityscapes.jpg";
 import Voiager from "../assets/stories/desktop/18-days-voyage.jpg";
@@ -17,13 +16,13 @@ import Kinglion from "../assets/stories/desktop/king-on-africa.jpg";
 import MobileKinglion from "../assets/stories/mobile/king-on-africa.jpg";
 import Mobiletriptonowhere from "../assets/stories/mobile/trip-to-nowhere.jpg";
 import Triptonowhere from "../assets/stories/mobile/trip-to-nowhere.jpg";
-import Tabtriptonowhere from "../assets/stories/mobile/trip-to-nowhere.jpg";
+
 import Mobileunforeseen from "../assets/stories/mobile/unforeseen-corners.jpg";
-import Unforeseen from "../assets/stories/mobile/unforeseen-corners.jpg";
+
 import Tabunforeseen from "../assets/stories/mobile/unforeseen-corners.jpg";
 import MobileRange from "../assets/stories/mobile/rage-of-the-sea.jpg";
 import Range from "../assets/stories/desktop/rage-of-the-sea.jpg";
-import TabRange from "../assets/stories/mobile//rage-of-the-sea.jpg";
+
 
 import MobileRunning from "../assets/stories/mobile/running-free.jpg";
 import Running from "../assets/stories/desktop/running-free.jpg";

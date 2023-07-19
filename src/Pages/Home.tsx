@@ -13,7 +13,7 @@ import MobileMauntain from "../assets/stories/mobile/mountains.jpg";
 import CitySun from "../assets/stories/desktop/cityscapes.jpg";
 import MobileCitySun from "../assets/stories/mobile/cityscapes.jpg";
 import Voiager from "../assets/stories/desktop/18-days-voyage.jpg";
-import MobileVoiager from "../assets/stories/mobile/18-days-voyage.jpg";
+
 import architecturals from "../assets/stories/desktop/architecturals.jpg";
 import Mobilearchitecturals from "../assets/stories/mobile/architecturals.jpg";
 

@@ -3,7 +3,7 @@ import MobileHero from "../assets/pricing/mobile/hero.jpg";
 import Hero from "../assets/pricing/desktop/hero.jpg";
 import Herotab from "../assets/pricing/tablet/hero.jpg";
 
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Pricing = () => {
   const [isChecked, setIsChecked] = useState(false);
