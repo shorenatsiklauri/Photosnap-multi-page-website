@@ -204,6 +204,7 @@ export default Homepage;
 
 const Maindiv = styled.div`
   width: 100%;
+
   @media (min-width: 768px) {
   width: 100%;
   }
@@ -217,6 +218,7 @@ const Divforpictureandtext = styled.div`
   flex-direction: row;
   margin: 0px;
   padding: 0px;
+
 
   @media (max-width: 767px) {
     display: flex;
@@ -241,7 +243,8 @@ const Divfortext = styled.div`
 `;
 
 const Divforpicture = styled.div`
-  width: 70%;
+  width: 60%;
+
 
   @media (max-width: 767px) {
     width: 100%;
@@ -298,6 +301,8 @@ const TextGetANINTIVE = styled.h1`
 `;
 
 const Divforsmallpictures = styled.div`
+
+
     display: flex;
     flex-direction: column;
     width:100%;
@@ -320,6 +325,7 @@ const SmalldiveOne = styled.div`
   justify-content: start;
   flex-direction: column;
   align-items: start;
+  background-color:green;
   
   @media (min-width: 768px) {
     background: url(${Mauntain});
@@ -339,6 +345,7 @@ const ParagrMauntains = styled.p`
   margin-top: 245px;
   color: white;
   margin-left: 50px;
+
 `;
 const ParagraphbyWho = styled.p`
   color: white;
@@ -439,21 +446,24 @@ const Picturestyle = styled.img`
   }
 `;
 const Whitedivforinformation = styled.div`
-  width: 100%;
+  width: 60%;
   height: 476px;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
+  margin:auto;
   gap: 80px;
-  @media (max-width: 767px) {
+  @media (min-width: 992px) {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: auto;
+    gap: 100px;
+    
   }
 `;
 const Whitesmalldivs = styled.div`
-  width: 500px;
+  width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -36,17 +36,42 @@ function Header() {
   
 const HeaderContainer = styled.div`
 width: 100%;
+height: 100px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin:auto;
+flex-direction: column;
+margin-bottom:50px;
+margin-top:30px;
+gap:10px;
+
+@media (min-width: 767px ) {
+  width: 100%;
 height: 75px;
 display: flex;
 justify-content: space-around;
 align-items: center;
-/* margin: auto; */
+margin:auto;
 flex-direction: row;
+
+}
+
+@media (min-width: 992px ) {
+  width: 100%;
+height: 75px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin:auto;
+flex-direction: row;
+}
+
 `;
 
 const HeaderButtons = styled.button`
 color: #000;
-font-size: 12px;
+font-size: 10px;
 font-family: DM Sans;
 font-weight: 700;
 letter-spacing: 2px;
@@ -59,7 +84,7 @@ border: none;
 `;
 
 const BlackHeaderButton = styled.button`
-width: 158px;
+width: 80%;
 height: 40px;
 flex-shrink: 0;
 background: #000;
@@ -67,5 +92,18 @@ color: white;
 &:hover {
   background: #dfdfdf;
   color: black;
+}
+
+@media (min-width: 767px) {
+  width: 150px;
+height: 40px;
+flex-shrink: 0;
+background: #000;
+color: white;
+&:hover {
+  background: #dfdfdf;
+  color: black;
+
+}
 }
 `;

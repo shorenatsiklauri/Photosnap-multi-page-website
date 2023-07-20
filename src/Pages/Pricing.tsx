@@ -17,16 +17,22 @@ const Pricing = () => {
   };
   const handlePickedone = () => {
     setIsPickedone(!isPickedone);
+    setIsPickedtwo(false);
+    setIsPickedthree(false);
    
   };
 
   const handlePickedtwo = () => {
     setIsPickedtwo(!isPickedtwo);
+    setIsPickedone(false);
+    setIsPickedthree(false);
    
   };
 
   const handlePickedthee = () => {
     setIsPickedthree(!isPickedthree);
+    setIsPickedtwo(false);
+    setIsPickedone(false);
    
   };
 
@@ -113,13 +119,13 @@ const Pricing = () => {
 <Textcompare> UNLIMITED STORY POSTING</Textcompare>
 <Divforthreeticks>
 <Textcompare> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
-  <path d="M1 8.12351L5.62323 13L17 1" stroke="black" stroke-width="2"/>
+  <path d="M1 8.12351L5.62323 13L17 1" stroke="gray" stroke-width="2"/>
 </svg></Textcompare>
 <Textcompare> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
-  <path d="M1 8.12351L5.62323 13L17 1" stroke="black" stroke-width="2"/>
+  <path d="M1 8.12351L5.62323 13L17 1" stroke="gray"  stroke-width="2"/>
 </svg></Textcompare>
 <Textcompare> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
-  <path d="M1 8.12351L5.62323 13L17 1" stroke="black" stroke-width="2"/>
+  <path d="M1 8.12351L5.62323 13L17 1" stroke="gray"  stroke-width="2"/>
 </svg></Textcompare>
 </Divforthreeticks>
 </LinesinCompareddiv>
@@ -128,13 +134,13 @@ const Pricing = () => {
 <Textcompare> UNLIMITED PHOTO UPLOAD</Textcompare>
 <Divforthreeticks>
 <Textcompare> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
-  <path d="M1 8.12351L5.62323 13L17 1" stroke="black" stroke-width="2"/>
+  <path d="M1 8.12351L5.62323 13L17 1" stroke="gray"  stroke-width="2"/>
 </svg></Textcompare>
 <Textcompare> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
-  <path d="M1 8.12351L5.62323 13L17 1" stroke="black" stroke-width="2"/>
+  <path d="M1 8.12351L5.62323 13L17 1" stroke="gray" stroke-width="2"/>
 </svg></Textcompare>
 <Textcompare> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
-  <path d="M1 8.12351L5.62323 13L17 1" stroke="black" stroke-width="2"/>
+  <path d="M1 8.12351L5.62323 13L17 1" stroke="gray"  stroke-width="2"/>
 </svg></Textcompare>
 </Divforthreeticks>
 </LinesinCompareddiv>
@@ -147,10 +153,10 @@ const Pricing = () => {
   <path d="M1 8.12351L5.62323 13L17 1" stroke="white" strokeWidth="2" />
 </svg></Textcompare>
 <Textcompare> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
-  <path d="M1 8.12351L5.62323 13L17 1" stroke="black" stroke-width="2"/>
+  <path d="M1 8.12351L5.62323 13L17 1" stroke="gray"  stroke-width="2"/>
 </svg></Textcompare>
 <Textcompare> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
-  <path d="M1 8.12351L5.62323 13L17 1" stroke="black" stroke-width="2"/>
+  <path d="M1 8.12351L5.62323 13L17 1" stroke="gray"  stroke-width="2"/>
 </svg></Textcompare>
 </Divforthreeticks>
 </LinesinCompareddiv>
@@ -162,10 +168,10 @@ const Pricing = () => {
   <path d="M1 8.12351L5.62323 13L17 1" stroke="white" strokeWidth="2" />
 </svg></Textcompare>
 <Textcompare> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
-  <path d="M1 8.12351L5.62323 13L17 1" stroke="black" stroke-width="2"/>
+  <path d="M1 8.12351L5.62323 13L17 1" stroke="gray"  stroke-width="2"/>
 </svg></Textcompare>
 <Textcompare> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
-  <path d="M1 8.12351L5.62323 13L17 1" stroke="black" stroke-width="2"/>
+  <path d="M1 8.12351L5.62323 13L17 1" stroke="gray"  stroke-width="2"/>
 </svg></Textcompare>
 </Divforthreeticks>
 </LinesinCompareddiv>
@@ -177,10 +183,10 @@ const Pricing = () => {
   <path d="M1 8.12351L5.62323 13L17 1" stroke="white" strokeWidth="2" />
 </svg></Textcompare>
 <Textcompare> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
-  <path d="M1 8.12351L5.62323 13L17 1" stroke="black" stroke-width="2"/>
+  <path d="M1 8.12351L5.62323 13L17 1" stroke="gray" stroke-width="2"/>
 </svg></Textcompare>
 <Textcompare> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
-  <path d="M1 8.12351L5.62323 13L17 1" stroke="black" stroke-width="2"/>
+  <path d="M1 8.12351L5.62323 13L17 1" stroke="gray" stroke-width="2"/>
 </svg></Textcompare>
 </Divforthreeticks>
 </LinesinCompareddiv>
@@ -195,7 +201,7 @@ const Pricing = () => {
   <path d="M1 8.12351L5.62323 13L17 1" stroke="white" strokeWidth="2" />
 </svg></Textcompare>
 <Textcompare> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
-  <path d="M1 8.12351L5.62323 13L17 1" stroke="black" stroke-width="2"/>
+  <path d="M1 8.12351L5.62323 13L17 1" stroke="gray" stroke-width="2"/>
 </svg></Textcompare>
 </Divforthreeticks>
 </LinesinCompareddiv>
@@ -210,7 +216,7 @@ const Pricing = () => {
   <path d="M1 8.12351L5.62323 13L17 1" stroke="white" strokeWidth="2" />
 </svg> </Textcompare>
 <Textcompare> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
-  <path d="M1 8.12351L5.62323 13L17 1" stroke="black" stroke-width="2"/>
+  <path d="M1 8.12351L5.62323 13L17 1" stroke="gray" stroke-width="2"/>
 </svg></Textcompare>
 </Divforthreeticks>
 </LinesinCompareddiv>
@@ -225,7 +231,7 @@ const Pricing = () => {
   <path d="M1 8.12351L5.62323 13L17 1" stroke="white" strokeWidth="2" />
 </svg></Textcompare>
 <Textcompare> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
-  <path d="M1 8.12351L5.62323 13L17 1" stroke="black" stroke-width="2"/>
+  <path d="M1 8.12351L5.62323 13L17 1" stroke="gray" stroke-width="2"/>
 </svg></Textcompare>
 </Divforthreeticks>
 </LinesinCompareddiv>
@@ -240,7 +246,7 @@ const Pricing = () => {
   <path d="M1 8.12351L5.62323 13L17 1" stroke="white" strokeWidth="2" />
 </svg> </Textcompare>
 <Textcompare> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
-  <path d="M1 8.12351L5.62323 13L17 1" stroke="black" stroke-width="2"/>
+  <path d="M1 8.12351L5.62323 13L17 1" stroke="gray" stroke-width="2"/>
 </svg></Textcompare>
 </Divforthreeticks>
 </LinesinCompareddiv>
@@ -450,7 +456,7 @@ text-transform: uppercase;
 `;
 const Comparediv = styled.div`
 
-   width:100%;
+   width:60%;
  
   display:flex;
   justify-content:center;
@@ -463,7 +469,7 @@ const Comparediv = styled.div`
 
 @media (min-width: 767px ) {
   /* margin-top:50px; */
-  width:90%;
+  width:100%;
 
   display:flex;
   justify-content:center;
@@ -489,16 +495,16 @@ const LinesinCompareddiv = styled.div`
   justify-content:space-between;
   align-items:center;
   flex-direction:row;
-  width:100%;
+  width:90%;
   height:50px;
-  gap:20px;
+  gap:50px;
   color: gray;
 font-family: DM Sans;
-font-size: 10px;
+font-size: 8px;
 font-style: normal;
-font-weight: 700;
+font-weight: 400;
 line-height: normal;
-letter-spacing: 1px;
+letter-spacing: 0.05px;
 border-bottom: solid 0.0001px #DFDFDF;
 
 
@@ -543,8 +549,9 @@ letter-spacing: 2px;
 const  Divforthreeticks = styled.div`
 width: 30%;
 display:flex;
-gap:60px;
+gap:40px;
 justify-content:center;
+
 
 
 @media (min-width: 768px) {
@@ -568,11 +575,11 @@ const Textcompare = styled.p`
   
   color: #000;
 font-family: DM Sans;
-font-size: 12px;
+font-size: 8px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-letter-spacing: 2px;
+letter-spacing: 1px;
 margin-bottom:70px;
 `;
 
