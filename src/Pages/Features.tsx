@@ -260,30 +260,48 @@ const Picturestyle = styled.img`
  }
  `;
 const Whitedivforinformation = styled.div`
-width: 100%;
+width: 60%;
+
 display: flex;
 justify-content: center;
 align-items: center;
-flex-direction: row;
-gap: 50px;
-flex-wrap:wrap;
-margin-bottom:50px;
+flex-direction: column;
+margin:auto;
+gap: 40px;
+margin-bottom:30px;
 
-@media (max-width: 767px) {
+@media (min-width: 992px) {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items:center;
+  justify-content:center;
+  gap:200px;
   height: auto;
+  flex-wrap: wrap;
+
+  
+
+
+  
 }
 `;
 const Whitesmalldivs = styled.div`
-  width: 250px;
- display: flex;
-  flex-direction: column;
-  justify-content: center;
- align-items: center;
- opacity: 0.6000000238418579;
- padding-top: 50px;
+width: 90%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+opacity: 0.6000000238418579;
+padding-top: 50px;
+@media (min-width: 992px) {
+     
+    flex-basis: calc(50% - 100px); /* Calculate the width of each element, considering gap */
+    max-width: calc(50% - 100px);
+  
+}
+
 `;
+
 
 const Betadiv =styled.div`
 height:400px;

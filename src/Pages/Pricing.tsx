@@ -260,6 +260,7 @@ const Pricing = () => {
 
 export default Pricing;
 
+
 const Ball = styled.span`
   position: absolute;
   top: 4px;
@@ -589,7 +590,9 @@ const Comparisionelements =styled.div`
 `;
 
 const Maindiv = styled.div`
+
   width: 100%;
+
   @media (min-width: 768px) {
   width: 100%;
   }
@@ -617,17 +620,20 @@ const Divfortext = styled.div`
   flex-direction: column;
   justify-content: start;
   align-items: start;
-  width: 40%;
+  width: 100%;
+  padding-bottom:200px;
+
   
   @media (max-width: 767px) {
     width: 100%;
+    height:auto;
    
    
   }
 `;
 
 const Divforpicture = styled.div`
-  width: 70%;
+  width: 100%;
 
   @media (max-width: 767px) {
     width: 100%;
@@ -665,6 +671,7 @@ const Contentelement = styled.h1`
 
 const MobilePicturestyle = styled.img`
 display: block;
+width:370px;
  
    @media (min-width: 768px) {
      display: none;
@@ -690,9 +697,7 @@ display: block;
    display: none;
    }
   
- @media (max-width: 768px) {
-     display: none;
-   }
+
  `;
 
 const Picturestyle = styled.img`

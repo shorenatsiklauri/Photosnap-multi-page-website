@@ -205,6 +205,7 @@ export default Homepage;
 const Maindiv = styled.div`
   width: 100%;
 
+
   @media (min-width: 768px) {
   width: 100%;
   }
@@ -446,29 +447,43 @@ const Picturestyle = styled.img`
   }
 `;
 const Whitedivforinformation = styled.div`
-  width: 60%;
-  height: 476px;
+width: 60%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin:auto;
+gap: 40px;
+margin-bottom:30px;
+
+@media (min-width: 992px) {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin:auto;
-  gap: 80px;
-  @media (min-width: 992px) {
-    display: flex;
-    flex-direction: row;
-    height: auto;
-    gap: 100px;
-    
-  }
+  flex-direction: row;
+  align-items:center;
+  justify-content:center;
+  gap:100px;
+  height: auto;
+
+
+
+  
+}
 `;
 const Whitesmalldivs = styled.div`
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  opacity: 0.6000000238418579;
-  padding-top: 50px;
+width: 90%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+opacity: 0.6000000238418579;
+padding-top: 50px;
+@media (min-width: 992px) {
+
+  width:25%;
+  
+}
+
 `;
+
 
