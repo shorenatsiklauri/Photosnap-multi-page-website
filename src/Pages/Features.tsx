@@ -275,11 +275,9 @@ margin-bottom:30px;
   flex-direction: row;
   align-items:center;
   justify-content:center;
-  gap:200px;
+  gap:100px;
   height: auto;
   flex-wrap: wrap;
-
-  
 
 
   
