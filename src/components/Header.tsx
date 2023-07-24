@@ -15,7 +15,7 @@ const Header = () => {
      
           <HeaderContainer  >
             {/* <MObileStyle   style={activebar ? { margin: '1px' } : { margin: '-700px' }}>   */}
-            <Divorsvges >
+            <Divorsvges  >
           <Link to='/'> <svg xmlns="http://www.w3.org/2000/svg" width="170" height="16">
             <defs>
               <linearGradient id="a" x1="0%" x2="50%" y1="85.457%" y2="14.543%">
@@ -281,6 +281,7 @@ const Divmobile = styled.div`
 
 @media (min-width: 767px) {
   display:none;
+
 }
 
 `
