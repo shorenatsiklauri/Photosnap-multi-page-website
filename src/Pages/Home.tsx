@@ -75,8 +75,8 @@ const Homepage = () => {
           </GetAnIntiveelement>
         </Divfortext>
       </Divforpictureandtext>
-
-      <Divforpictureandtext>
+ 
+     <Divforpictureandtext>
         <MobilePicturestyle src={MobileDesignedpicture} alt="My Image" />{" "}
         <Divfortext>
           <Paragrapaboutsharestory>
@@ -156,7 +156,7 @@ const Homepage = () => {
           </Readstorydiv>
         </Smalldivefour>
       </Divforsmallpictures>
-      <Whitedivforinformation>
+       <Whitedivforinformation>
         <Whitesmalldivs>
           <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72">
             <path d="M31.195 32.674c0-.654-.529-1.183-1.183-1.183H4.88c-.653 0-1.183.53-1.183 1.183v31.195c0 .653.53 1.182 1.183 1.182h25.133c.654 0 1.183-.53 1.183-1.182V32.674zM28.83 62.686H6.062v-28.83H28.83v28.83zm-10.194 3.4h-2.37a1.182 1.182 0 100 2.366h2.37a1.183 1.183 0 000-2.366z" />
@@ -195,7 +195,7 @@ const Homepage = () => {
             videos, Google Maps, and more.{" "}
           </p>
         </Whitesmalldivs>
-      </Whitedivforinformation>
+      </Whitedivforinformation> 
     </Maindiv>
   );
 };
@@ -274,7 +274,6 @@ const Contentelement = styled.h1`
   font-family: DM Sans;
   line-height: 25px;
   opacity: 0.6000000238418579;
-  width: 400px;
   margin-left: 50px;
 `;
 
@@ -311,6 +310,7 @@ const Divforsmallpictures = styled.div`
     @media (min-width: 767px) {
     display: flex;
   flex-direction: row;
+
     }
 
   @media (min-width: 992px) {
@@ -339,19 +339,40 @@ const SmalldiveOne = styled.div`
   }
 
   @media (min-width: 992px) {
+       padding-top:220px; 
     width: 25%;
   }
 `;
+
+
+
+
+
 const ParagrMauntains = styled.p`
   margin-top: 245px;
   color: white;
   margin-left: 50px;
+  @media (min-width: 992px) {
+
+    margin-top:60px;
+  
+  color: white;
+  margin-left: 50px;
+  margin-bottom:5px;
+  }
 
 `;
 const ParagraphbyWho = styled.p`
   color: white;
-  margin-top: -12px;
+  /* margin-top: 3px; */
   margin-left: 50px;
+  font-size:10px;
+
+  @media (min-width: 992px) {
+    color: white;
+    margin-left: 50px;
+
+  }
 `;
 
 const Readstorydiv = styled.div`
@@ -457,6 +478,7 @@ margin:auto;
 gap: 40px;
 margin-bottom:30px;
 
+
 @media (min-width: 992px) {
   display: flex;
   flex-direction: row;
@@ -478,6 +500,8 @@ justify-content: center;
 align-items: center;
 opacity: 0.6000000238418579;
 padding-top: 50px;
+
+
 @media (min-width: 992px) {
 
   width:25%;

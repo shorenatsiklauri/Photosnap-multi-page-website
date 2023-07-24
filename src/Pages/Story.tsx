@@ -437,13 +437,20 @@ const SmalldiveOne = styled.div`
   align-items: start;
   
   @media (min-width: 768px) {
-  width: 50%;
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    width: 50%;
      }
   @media (min-width: 992px) {
-    
+    padding-top:220px; 
+
     width: 25%;
   }
 `;
+
+
 const Smalldivesecond = styled(SmalldiveOne)`
  background: url(${MobileCitySun});
  background-repeat:none;
@@ -456,19 +463,33 @@ const Smalldivesecond = styled(SmalldiveOne)`
   }
 
 `;
+
 const ParagrMauntains = styled.p`
-margin-top:250px;
+  margin-top: 245px;
+  color: white;
+  margin-left: 50px;
+  @media (min-width: 992px) {
+
+    margin-top:60px;
   
   color: white;
   margin-left: 50px;
-  margin-bottom:-5px;
+  margin-bottom:5px;
+  }
+
 `;
 const ParagraphbyWho = styled.p`
   color: white;
+  /* margin-top: 3px; */
+  margin-left: 50px;
+  font-size:10px;
+
+  @media (min-width: 992px) {
+    color: white;
     margin-left: 50px;
+
+  }
 `;
-
-
 
 const Readstorydiv = styled.div`
   display: flex;
