@@ -112,7 +112,7 @@ border: none;
 @media (min-width: 992px) {
 
   color: #000;
-font-size: 15px;
+font-size: 12px;
 font-family: DM Sans;
 font-weight: 700;
 letter-spacing: 2px;
@@ -260,8 +260,8 @@ justify-content:start;
 align-items:center;
 width:auto;
 margin-top:0px;
-margin-left:-300px;
-gap:10px;
+/* margin-left:-300px; */
+gap:30px;
 }
 
 @media (min-width: 992px) {
@@ -272,7 +272,7 @@ justify-content:space-between;
 align-items:center;
 width:auto;
 margin-top:-50px;
-gap:100px;
+gap:50px;
 }
   
 `;
