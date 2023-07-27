@@ -387,6 +387,7 @@ const Contentelement = styled.h1`
   opacity: 0.6000000238418579;
   width: 400px;
   margin-left: 50px;
+  margin-top:50px;
 `;
 
 const GetAnIntiveelement = styled.div`
@@ -396,6 +397,7 @@ const GetAnIntiveelement = styled.div`
   align-items:center;
 
   margin-left: 50px;
+  margin-top:15px;
   @media (max-width: 767px) {
     margin-bottom:50px;
     
@@ -408,10 +410,13 @@ const TextGetANINTIVE = styled.h1`
   font-family: DM Sans;
   font-weight: 700;
   letter-spacing: 2px;
-  margin-top:10px;
+  margin-top:3px;
+  &:hover {
+    border-bottom: 1px solid white;
+    cursor: pointer;
+  }
   
 `;
-
 const Divforsmallpictures = styled.div`
     display: flex;
     flex-direction: column;

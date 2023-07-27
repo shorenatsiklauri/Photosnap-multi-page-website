@@ -213,7 +213,11 @@ const TextGetANINTIVE = styled.h1`
   font-family: DM Sans;
   font-weight: 700;
   letter-spacing: 2px;
-  margin-top:10px;
+  margin-top:3px;
+  &:hover {
+    border-bottom: 1px solid white;
+    cursor: pointer;
+  }
   
 `;
 
@@ -295,6 +299,7 @@ padding-top: 50px;
      
     flex-basis: calc(50% - 100px); /* Calculate the width of each element, considering gap */
     max-width: calc(50% - 100px);
+    margin-left:50px;
   
 }
 

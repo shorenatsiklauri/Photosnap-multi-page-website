@@ -1,12 +1,11 @@
 
 import styled from "styled-components";
 import { Routes, Route } from "react-router-dom";
-import Homepage from "./Pages/Home";
-import Story from "./Pages/Story";
-import Features from "./Pages/Features";
-import Pricing from "./Pages/Pricing";
-import Header from "./components/Header"
-import Footer from "./components/Footer"
+import Homepage from "./pages/Home";
+import Story from "./pages/Story";
+import Features from "./pages/Features";
+import Pricing from "./pages/Pricing";
+import {Header, Footer} from './components'
 
 function App() {
   return (

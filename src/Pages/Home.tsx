@@ -261,7 +261,7 @@ const Paragrapaboutsharestory = styled.p`
   letter-spacing: 4.167px;
   text-transform: uppercase;
   margin-left: 50px;
-  margin-top:300px;
+  margin-top:200px;
   @media (max-width: 767px){
     margin-top:100px;
     
@@ -296,7 +296,11 @@ const TextGetANINTIVE = styled.h1`
   font-family: DM Sans;
   font-weight: 700;
   letter-spacing: 2px;
-  margin-top:10px;
+  margin-top:3px;
+  &:hover {
+    border-bottom: 1px solid white;
+    cursor: pointer;
+  }
   
 `;
 
@@ -484,7 +488,7 @@ margin-bottom:30px;
   flex-direction: row;
   align-items:center;
   justify-content:center;
-  gap:100px;
+  gap:250px;
   height: auto;
 
 
@@ -493,20 +497,22 @@ margin-bottom:30px;
 }
 `;
 const Whitesmalldivs = styled.div`
-width: 90%;
+
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+margin:auto;
 opacity: 0.6000000238418579;
-padding-top: 50px;
+margin-top:40px;
+gap:30px;
 
 
-@media (min-width: 992px) {
 
-  width:25%;
-  
-}
+/* @media (min-width: 992px) {
+
+width:300px;
+} */
 
 `;
 

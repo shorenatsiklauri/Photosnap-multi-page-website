@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { useState } from "react";
 
-const Header = () => {
+export const Header = () => {
   const [activebar, setActivebar] = useState(true);
 
 
@@ -16,7 +16,7 @@ const Header = () => {
           <HeaderContainer  >
             {/* <MObileStyle   style={activebar ? { margin: '1px' } : { margin: '-700px' }}>   */}
             <Divorsvges  >
-          <Link to='/'> <svg xmlns="http://www.w3.org/2000/svg" width="170" height="16">
+          <Link to='/'> <svg xmlns="http://www.w3.org/2000/svg" width="170" height="16" >
             <defs>
               <linearGradient id="a" x1="0%" x2="50%" y1="85.457%" y2="14.543%">
                 <stop offset="0%" stop-color="#FFC593" />
@@ -52,7 +52,7 @@ const Header = () => {
     );
   }
 
-  export default Header;
+  
 
   // const MObileStyle = styled.div`
  
@@ -60,17 +60,18 @@ const Header = () => {
   
 const HeaderContainer = styled.div`
 width: 100%;
-height: 100px;
+height: fit-content;
 display: flex;
 justify-content: space-around;
 align-items: start;
-margin:auto;
+/* margin:auto; */
 flex-direction: column;
-margin-bottom:10px;
-margin-top:-10px;
+/* margin-bottom:10px; */
+/* margin-top:-10px; */
 gap:10px;
-margin-top:80px;
-margin-bottom:30px;
+/* margin-top:80px; */
+/* margin-bottom:30px; */
+padding: 24px 0px;
 
 @media (min-width: 767px ) {
   width: 100%;
@@ -107,6 +108,7 @@ border: none;
 
 &:hover {
   background-color: #f0f0f0;
+  cursor: pointer;
 }
 
 @media (min-width: 992px) {
@@ -130,7 +132,6 @@ background: #000;
 color: white;
 /* margin-top:-20px; */
 width:300px;
-margin-bottom:15px;
 &:hover {
   background: #dfdfdf;
   color: black;
