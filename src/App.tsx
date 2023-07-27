@@ -5,7 +5,8 @@ import Homepage from "./pages/Home";
 import Story from "./pages/Story";
 import Features from "./pages/Features";
 import Pricing from "./pages/Pricing";
-import {Header, Footer} from './components'
+import Header from './components/Header'
+import  Footer from './components/Footer'
 
 function App() {
   return (

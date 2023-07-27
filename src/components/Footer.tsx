@@ -2,7 +2,7 @@
 import styled from "styled-components";
 import { FacebookIcon } from "../assets/svg";
 
-export function Footer() {
+ function Footer() {
     return (
 
 
@@ -121,7 +121,7 @@ export function Footer() {
 }
 
 
-
+export default Footer;
 
 const FooterContainer = styled.div`
 width: 100%;

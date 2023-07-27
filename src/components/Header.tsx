@@ -51,7 +51,7 @@ export const Header = () => {
   
     );
   }
-
+  export default Header;
   
 
   // const MObileStyle = styled.div`
