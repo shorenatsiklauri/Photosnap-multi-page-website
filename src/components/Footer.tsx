@@ -40,7 +40,7 @@ export function Footer() {
         </FooterDivforList>
           <DivforLogos>
             <FacebookIcon/>
-            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20"  cursor: pointer >
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20"  >
               <defs>
                 <linearGradient id="a" x1="0%" x2="100%" y1="100%" y2="0%">
                   <stop offset="0%" stop-color="#D3205A" />
