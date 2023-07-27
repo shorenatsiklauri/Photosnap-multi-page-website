@@ -8,6 +8,8 @@ Users should be able to:
 
 - View the optimal layout for each page depending on their device's screen size
 - See hover states for all interactive elements throughout the site
+- user should be able to choose a specific page by clicking on the corresponding element in the header."
+- On the 'Pricing' page, users should be able to adjust the prices according to their chosen month and year. Furthermore, they should have the option to select their preferred package from the various available choices.
 
 ### Screenshot
 
