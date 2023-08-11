@@ -42,7 +42,7 @@ const Homepage = () => {
           </GetAnIntiveelement>
         </Divfortext>
         <Divforpicture>
-          <Picturestyle src={Createandsharepicture} alt="My Image" />{" "}
+          <Picturestyle src={Createandsharepicture} alt="My Image" loading="lazy" />{" "}
           <TabPicturestyle src={TabletCreateandsharepicture} alt="My Image" />{" "}
 
                   </Divforpicture>{" "}
